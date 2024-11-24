@@ -23,7 +23,7 @@ join_db = JoinReqs
 @Client.on_message(filters.command("start") & filters.incoming)
 async def start(client, message):
     try:
-        await message.react(emoji=random.choice(REACTIONS), big=True)
+        await message.react(emoji=random.choice(REACTIONS), big=False)
     except:
         pass
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
@@ -297,7 +297,7 @@ async def start(client, message):
                         InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
                         InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
                     ],[
-                        InlineKeyboardButton('𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥', url="https://t.me/")
+                        InlineKeyboardButton('', url="")
                     ],[
                         InlineKeyboardButton("🚀 Fast Download 🚀", url=download),
                         InlineKeyboardButton('🖥️ Watch online 🖥️', url=stream)
@@ -309,7 +309,7 @@ async def start(client, message):
                         InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
                         InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
                     ],[
-                        InlineKeyboardButton('𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥', url="https://t.me/")
+                        InlineKeyboardButton('', url="")
                     ]]
                 msg = await client.send_cached_media(
                     chat_id=message.from_user.id,
@@ -410,7 +410,7 @@ async def start(client, message):
                         InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
                         InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
                     ],[
-                        InlineKeyboardButton('𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥', url="https://t.me/")
+                        InlineKeyboardButton('', url="")
                     ],[
                         InlineKeyboardButton("🚀 Fast Download 🚀", url=download),
                         InlineKeyboardButton('🖥️ Watch online 🖥️', url=stream)
@@ -422,7 +422,7 @@ async def start(client, message):
                         InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
                         InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
                     ],[
-                        InlineKeyboardButton('𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥', url="https://t.me/")
+                        InlineKeyboardButton('', url="")
                     ]]
                 try:
                     p = await msg.copy(message.chat.id, caption=f_caption, protect_content=True if protect == "/pbatch" else False, reply_markup=InlineKeyboardMarkup(button))
@@ -557,7 +557,7 @@ async def start(client, message):
                 InlineKeyboardButton("📢 Update Channel 📢", url="t.me/CKUpdates1TG")
             ]]
             if STREAM_MODE == False:
-                button.append([InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'generate_stream_link:{file_id}')])
+                button.append([InlineKeyboardButton('', callback_data=f'generate_stream_link:{file_id}')])
             msg = await client.send_cached_media(
                 chat_id=message.from_user.id,
                 file_id=file_id,
@@ -616,10 +616,10 @@ async def start(client, message):
                 InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
                 InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
             ],[
-                InlineKeyboardButton("𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥", url="t.me/")
+                InlineKeyboardButton("", url="")
             ]]
             if STREAM_MODE == False:
-                button.append([InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'generate_stream_link:{file_id}')])
+                button.append([InlineKeyboardButton('', callback_data=f'generate_stream_link:{file_id}')])
             msg = await client.send_cached_media(
                 chat_id=message.from_user.id,
                 file_id=file_id,
@@ -680,7 +680,7 @@ async def start(client, message):
         InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
         InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
     ],[
-        InlineKeyboardButton("𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥", url="t.me/")
+        InlineKeyboardButton("", url="")
     ]]
     if STREAM_MODE == False:
         button.append([InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'generate_stream_link:{file_id}')])
