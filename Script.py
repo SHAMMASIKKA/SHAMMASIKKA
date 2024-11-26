@@ -248,7 +248,7 @@ Nᴀᴍᴇ - {}"""
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """{file_name}
+    CAPTION = """[{file_name}]
 
 ╔═══ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ═══╗
 ➲ @CKUpdates1TG
