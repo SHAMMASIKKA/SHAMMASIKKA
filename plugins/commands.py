@@ -297,7 +297,7 @@ async def start(client, message):
                         InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
                         InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
                     ],[
-                        InlineKeyboardButton('', url="")
+                        InlineKeyboardButton('Oᴜʀ Cʜᴀɴɴᴇʟ', url="https://t.me/trollgaragemovieparadise")
                     ],[
                         InlineKeyboardButton("🚀 Fast Download 🚀", url=download),
                         InlineKeyboardButton('🖥️ Watch online 🖥️', url=stream)
@@ -309,7 +309,7 @@ async def start(client, message):
                         InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
                         InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
                     ],[
-                        InlineKeyboardButton('', url="")
+                        InlineKeyboardButton('Oᴜʀ Cʜᴀɴɴᴇʟ', url="https://t.me/trollgaragemovieparadise")
                     ]]
                 msg = await client.send_cached_media(
                     chat_id=message.from_user.id,
@@ -410,7 +410,7 @@ async def start(client, message):
                         InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
                         InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
                     ],[
-                        InlineKeyboardButton('', url="")
+                        InlineKeyboardButton('Oᴜʀ Cʜᴀɴɴᴇʟ', url="https://t.me/trollgaragemovieparadise")
                     ],[
                         InlineKeyboardButton("🚀 Fast Download 🚀", url=download),
                         InlineKeyboardButton('🖥️ Watch online 🖥️', url=stream)
@@ -422,7 +422,7 @@ async def start(client, message):
                         InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
                         InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
                     ],[
-                        InlineKeyboardButton('', url="")
+                        InlineKeyboardButton('Oᴜʀ Cʜᴀɴɴᴇʟ', url="https://t.me/trollgaragemovieparadise")
                     ]]
                 try:
                     p = await msg.copy(message.chat.id, caption=f_caption, protect_content=True if protect == "/pbatch" else False, reply_markup=InlineKeyboardMarkup(button))
@@ -554,7 +554,7 @@ async def start(client, message):
                 InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
                 InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
             ],[
-                InlineKeyboardButton("📢 Update Channel 📢", url="t.me/CKUpdates1TG")
+                InlineKeyboardButton("📢 Uᴩᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ 📢", url="t.me/CKUpdates1TG")
             ]]
             if STREAM_MODE == False:
                 button.append([InlineKeyboardButton('', callback_data=f'generate_stream_link:{file_id}')])
@@ -616,7 +616,7 @@ async def start(client, message):
                 InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
                 InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
             ],[
-                InlineKeyboardButton("", url="")
+                InlineKeyboardButton("Oᴜʀ Cʜᴀɴɴᴇʟ", url="https://t.me/trollgaragemovieparadise")
             ]]
             if STREAM_MODE == False:
                 button.append([InlineKeyboardButton('', callback_data=f'generate_stream_link:{file_id}')])
@@ -680,7 +680,7 @@ async def start(client, message):
         InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
         InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
     ],[
-        InlineKeyboardButton("", url="")
+        InlineKeyboardButton("Oᴜʀ Cʜᴀɴɴᴇʟ", url="https://t.me/trollgaragemovieparadise")
     ]]
     if STREAM_MODE == False:
         button.append([InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'generate_stream_link:{file_id}')])
