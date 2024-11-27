@@ -289,8 +289,8 @@ async def start(client, message):
                         text=f"•• ʟɪɴᴋ ɢᴇɴᴇʀᴀᴛᴇᴅ ꜰᴏʀ ɪᴅ #{user_id} \n•• ᴜꜱᴇʀɴᴀᴍᴇ : {username} \n\n•• ᖴᎥᒪᗴ Nᗩᗰᗴ : {fileName}",
                         quote=True,
                         disable_web_page_preview=True,
-                        reply_markup=InlineKeyboardMarkup([[#InlineKeyboardButton("🚀 Fast Download 🚀", url=download),  # we download Link
-                                                            #InlineKeyboardButton('🖥️ Watch online 🖥️', url=stream)]])  # web stream Link
+                        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🚀 Fast Download 🚀", url=download),  # we download Link
+                                                            InlineKeyboardButton('🖥️ Watch online 🖥️', url=stream)]])  # web stream Link
                     )
                 if STREAM_MODE == False:
                     button = [[
@@ -299,10 +299,10 @@ async def start(client, message):
                     ],[
                         InlineKeyboardButton('Oᴜʀ Cʜᴀɴɴᴇʟ', url="https://t.me/trollgaragemovieparadise")
                     ],[
-                        #InlineKeyboardButton("🚀 Fast Download 🚀", url=download),
-                        #InlineKeyboardButton('🖥️ Watch online 🖥️', url=stream)
+                        InlineKeyboardButton("🚀 Fast Download 🚀", url=download),
+                        InlineKeyboardButton('🖥️ Watch online 🖥️', url=stream)
                     ],[
-                        #InlineKeyboardButton("• ᴡᴀᴛᴄʜ ɪɴ ᴡᴇʙ ᴀᴘᴘ •", web_app=WebAppInfo(url=stream))
+                        InlineKeyboardButton("• ᴡᴀᴛᴄʜ ɪɴ ᴡᴇʙ ᴀᴘᴘ •", web_app=WebAppInfo(url=stream))
                     ]]
                 else:
                     button = [[
@@ -402,8 +402,8 @@ async def start(client, message):
                         text=f"•• ʟɪɴᴋ ɢᴇɴᴇʀᴀᴛᴇᴅ ꜰᴏʀ ɪᴅ #{user_id} \n•• ᴜꜱᴇʀɴᴀᴍᴇ : {username} \n\n•• ᖴᎥᒪᗴ Nᗩᗰᗴ : {fileName}",
                         quote=True,
                         disable_web_page_preview=True,
-                        reply_markup=InlineKeyboardMarkup([[#InlineKeyboardButton("🚀 Fast Download 🚀", url=download),  # we download Link
-                                                            #InlineKeyboardButton('🖥️ Watch online 🖥️', url=stream)]])  # web stream Link
+                        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🚀 Fast Download 🚀", url=download),  # we download Link
+                                                            InlineKeyboardButton('🖥️ Watch online 🖥️', url=stream)]])  # web stream Link
                     )
                 if STREAM_MODE == False:
                     button = [[
@@ -412,10 +412,10 @@ async def start(client, message):
                     ],[
                         InlineKeyboardButton('Oᴜʀ Cʜᴀɴɴᴇʟ', url="https://t.me/trollgaragemovieparadise")
                     ],[
-                        #InlineKeyboardButton("🚀 Fast Download 🚀", url=download),
-                        #InlineKeyboardButton('🖥️ Watch online 🖥️', url=stream)
+                        InlineKeyboardButton("🚀 Fast Download 🚀", url=download),
+                        InlineKeyboardButton('🖥️ Watch online 🖥️', url=stream)
                     ],[
-                        #InlineKeyboardButton("• ᴡᴀᴛᴄʜ ɪɴ ᴡᴇʙ ᴀᴘᴘ •", web_app=WebAppInfo(url=stream))
+                        InlineKeyboardButton("• ᴡᴀᴛᴄʜ ɪɴ ᴡᴇʙ ᴀᴘᴘ •", web_app=WebAppInfo(url=stream))
                     ]]
                 else:
                     button = [[
