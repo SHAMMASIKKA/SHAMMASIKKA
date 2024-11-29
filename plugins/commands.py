@@ -299,10 +299,10 @@ async def start(client, message):
                     ],[
                         InlineKeyboardButton('Oᴜʀ Cʜᴀɴɴᴇʟ', url="https://t.me/trollgaragemovieparadise")
                     ],[
-                        #InlineKeyboardButton("🚀 Fast Download 🚀", url=download),
-                        #InlineKeyboardButton('🖥️ Watch online 🖥️', url=stream)
+                        InlineKeyboardButton("🚀 Fast Download 🚀", url=download),
+                        InlineKeyboardButton('🖥️ Watch online 🖥️', url=stream)
                     ],[
-                        #InlineKeyboardButton("• ᴡᴀᴛᴄʜ ɪɴ ᴡᴇʙ ᴀᴘᴘ •", web_app=WebAppInfo(url=stream))
+                        InlineKeyboardButton("• ᴡᴀᴛᴄʜ ɪɴ ᴡᴇʙ ᴀᴘᴘ •", web_app=WebAppInfo(url=stream))
                     ]]
                 else:
                     button = [[
@@ -412,10 +412,10 @@ async def start(client, message):
                     ],[
                         InlineKeyboardButton('Oᴜʀ Cʜᴀɴɴᴇʟ', url="https://t.me/trollgaragemovieparadise")
                     ],[
-                        #InlineKeyboardButton("🚀 Fast Download 🚀", url=download),
-                        #InlineKeyboardButton('🖥️ Watch online 🖥️', url=stream)
+                        InlineKeyboardButton("🚀 Fast Download 🚀", url=download),
+                        InlineKeyboardButton('🖥️ Watch online 🖥️', url=stream)
                     ],[
-                        #InlineKeyboardButton("• ᴡᴀᴛᴄʜ ɪɴ ᴡᴇʙ ᴀᴘᴘ •", web_app=WebAppInfo(url=stream))
+                        InlineKeyboardButton("• ᴡᴀᴛᴄʜ ɪɴ ᴡᴇʙ ᴀᴘᴘ •", web_app=WebAppInfo(url=stream))
                     ]]
                 else:
                     button = [[
