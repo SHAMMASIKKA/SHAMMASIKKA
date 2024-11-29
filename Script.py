@@ -206,7 +206,7 @@ Nᴀᴍᴇ - {}"""
 
 ᴍᴏᴠɪᴇ ʀᴇǫᴜᴇꜱᴛ ꜰᴏʀᴍᴀᴛ 👇
 
-ᴇxᴀᴍᴘʟᴇ : Uncharted or Uncharted 2022 or Uncharted En
+ᴇxᴀᴍᴘʟᴇ : Uncharted or Uncharted 2022 or Uncharted English
 
 ꜱᴇʀɪᴇꜱ ʀᴇǫᴜᴇꜱᴛ ꜰᴏʀᴍᴀᴛ 👇
 
@@ -248,12 +248,15 @@ Nᴀᴍᴇ - {}"""
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """[{file_name}]
+    CAPTION = """<code>{file_name}</code>
 
-╔═══ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ═══╗
-➲ @CKUpdates1TG
-➲ @CinemaKandaloLinks
-╚═══ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ═══╝""" 
+✯ ━━━━━━ ✧ ━━━━━ ✯
+📢 Group : 🕹
+ @CinemaKandalo
+📢 Channel :🕹 
+@CinemaKandaloLinks
+📢 Channel :🕹
+ @CKUpdates1TG""" 
 
     IMDB_TEMPLATE_TXT = """
 <b>Query: {qurey}
